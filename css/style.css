@@ -17,12 +17,11 @@ p {
   margin-top: 0;
 }
 
-ul, li
-{
-
+ul,
+li {
   display: block;
-	padding: 0;
-	margin: 0;
+  padding: 0;
+  margin: 0;
   list-style: none;
   padding-left: 0;
   margin: 0;
@@ -54,130 +53,168 @@ address {
 
 /*------ heder Oleksandr------*/
 
-
-
 section {
-	padding-top: 113px	
+  padding-top: 113px;
 }
 
 p {
-	margin: 0;
+  margin: 0;
 }
 
-ul, li {
-	display: block;
-	padding: 0;
-	margin: 0;
+ul,
+li {
+  display: block;
+  padding: 0;
+  margin: 0;
 }
 
 .container {
-	width: 1338px;
-	/*позиционирование по центру*/
-	margin: 0 auto; 
+  width: 1338px;
+  /*позиционирование по центру*/
+  /*margin: 0 auto;*/
 }
 
 .header {
-	background: url('../img/header-bg.jpg') no-repeat center top / cover;
-	padding-top: 57px;
-	color: #fff;
-	padding-bottom: 322px
+  background: url("../img/header-bg.jpg") no-repeat center top / cover;
+  padding-top: 57px;
+  color: #fff;
+  padding-bottom: 322px;
 }
 
 header a {
-	color: #fff;
+  color: #fff;
 }
 
 .logo {
-	margin-right: 69px;
+  margin-right: 69px;
 }
 
 .menu {
-	display: flex;
+  display: flex;
 }
 
 .menu li a {
-	text-transform: uppercase;
-	font-size: 14px;
-	letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.1em;
 }
 
 .menu li a:hover {
-	border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #fff;
 }
 
 .menu li {
-	margin-right: 40px;
+  margin-right: 40px;
 }
 
 .tel {
-	font-size: 17px;
-	margin-left: auto;
-	letter-spacing: 0.1em;
+  font-size: 17px;
+  margin-left: auto;
+  letter-spacing: 0.1em;
 }
 
 .nav {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .offer {
-	text-transform: uppercase;
-	margin-top: 216px;
+  text-transform: uppercase;
+  margin-top: 216px;
 }
 
 .offer p {
-	font-size: 30px;
-	letter-spacing: 0.1em;
+  font-size: 30px;
+  letter-spacing: 0.1em;
 }
 
 .offer h1 {
-	font-size: 100px;
-	margin-bottom: 19px;
-	margin-top: -9px;
-	letter-spacing: 0.02em
+  font-size: 100px;
+  margin-bottom: 19px;
+  margin-top: -9px;
+  letter-spacing: 0.02em;
 }
 
 .btn {
-	display: block;
-	font-size: 17px;
-	text-align: center;
-	letter-spacing: 0.1em;
-	padding: 17px 47px;
-	border: 1px solid #fff;
-	width: 238px;
-	transition: all 0.5s ease;
+  display: block;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  padding: 17px 47px;
+  border: 1px solid #fff;
+  width: 238px;
+  transition: all 0.5s ease;
 }
 
 .btn:hover {
-	background: #fff;
-    color: #000;
+  background: #fff;
+  color: #000;
 }
 
 .description {
-	display: flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .description p {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
-	text-align: justify;
-	line-height: 1.62em;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 1.62em;
 }
 
-.desc-left, .desc-right {
-	width: 567px;
+.desc-left,
+.desc-right {
+  width: 567px;
 }
 
+/* heder по варианту Active Box */
 
+.container__1 {
+  width: 100%;
+  max-width: 1338px;
+  margin: 0 auto;
+  padding-left: 0;
+  border-bottom: 1px solid #eeeeee;
+  display: flex;
 
+  /*margin-left: auto;*/
+  margin-right: auto;
+  padding-top: 22px;
+  padding-bottom: 77px;
+  align-items: center;
+}
 
+.heder-1 a {
+  color: #263238;
+}
 
+.heder__inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 75px;
+  align-items: center;
+}
+.heder_logo {
+  padding: 0 75px;
+}
+.nav__1 {
+  display: flex;
+  font-size: 20px;
+}
+.nav__1__link {
+  margin-left: 50px;
+  text-decoration: none;
+  transition: opasity 0.1s linear;
+}
 
+.nav__1__link:first-child {
+  margin-left: 0;
+}
 
-
-
-
+.nav__1__link:hover {
+  text-decoration: underline;
+}
 
 /* .page-header_container {
   border-bottom: 1px solid #eeeeee;
@@ -188,7 +225,7 @@ header a {
   padding-top: 22px;
   padding-bottom: 77px;
   align-items: center; */
-}
+
 /*-----Логотип---------*/
 .logo {
   font-size: 36px;
@@ -203,7 +240,6 @@ header a {
   display: flex;
   align-items: center;
 }
-
 
 /*-----end heder------ */
 
